@@ -7,6 +7,7 @@
     function krasot(){
         var kr=document.getElementById("krasa").value;
         document.getElementById("fons").style="background-color:"+kr;
+        document.getElementById("fons").innerHTML = "Krāsa nomainīta";
     }
     </script>
 </head>
@@ -15,6 +16,6 @@
   <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
   <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
 </form>
-     document.getElementById("fons").innerHTML = "Krāsa nomainīta";
+     
 </body>
 </html>
