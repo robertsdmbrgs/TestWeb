@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : Feb 24, 2021, 12:14:50 PM
     Author     : rezidsence
 */
-body{background-image: url(images/mountain.jpg);}
+body{background-image: url("mountain.jpg");}
 h1{color:orange;}
 p{color:greenyellow; font-size:150%}
 td{color:red;}
