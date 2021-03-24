@@ -9,11 +9,15 @@
     <h1>Formas un ievadlauku piemērs</h1>
     <form>
         <p>Šodienas datums <input name="datums"></p>
+        <p> Dienu skaits <input name="dienuskaits"></p>
         <p>Ja gribi uzzināt šodienas datumu, spied pogu DATUMS 
             <input onclick="datums.value=new Date();" name="poga" value="DATUMS" type="button">
         </p>
         <p>Ja gribi izdzēst datumua lodziņa saturu, spied pogu RESET
             <input value="RESET" type="reset">
+        </p>
+        <p> Ja gribi uzzināt, kāds datums būs pēc tevis izvēlēta dienu skaita, spied pogu NĀKOTNE
+            <input name="poga2" value="NĀKOTNE" type="button" onclick="dienuskaits.value=new Date(0) + Number(dienuskaits.value)*86400000 ;"  >
         </p>
     </form>
     <form>
